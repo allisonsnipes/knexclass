@@ -24,7 +24,7 @@ connection.connect(function(err) {
 })
 
 // Creates mySQL connection using Knex.js
-const Knex = require('knex')(require('../../knexfile'))
+const Knex = require('knex')(require('../knexfile'))
 
 // Exports the connection for other files to use
-module.exports = Knex;
+module.exports = Knex
